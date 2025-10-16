@@ -124,7 +124,9 @@ print("-------------------------------------------\n"
 # Hint: You can loop directly over a string like this:
 # for letter in word:
 #     print(letter)
-
+name = input("Enter the name:") 
+for letter in name:
+    print (letter)  
 # Write your code below:
 
 
