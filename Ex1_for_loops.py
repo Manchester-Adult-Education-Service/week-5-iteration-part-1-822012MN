@@ -33,7 +33,8 @@ print("-------------------------------------------\n"
 #     print("Hello number", i)
 #
 # Write your code below:
-
+for i in range (10):
+       print("World is beautiful", i)
 
 # Task 2: Counting with for loops
 # -------------------------------------------
@@ -51,9 +52,23 @@ print("-------------------------------------------\n"
 # for i in range(1, 6):
 #     print(i)
 #
-# Write your code below:
-
-
+# # Write your code below:
+# for i in range(10):
+#       print (" Counting up", i)
+# for n in range(10, 9, 8):
+#        print ("Counting down", n)
+# for n in range (10, 0, -1):
+#        print ("Counting down", n)
+for i in range(10,0,-2):
+      print (" Counting up", i)
+for i in range (5):
+     print ("Counting up", i)
+for i in range (100,0,-10):
+     print ("Counting up" , i)
+for i in range (100, 10, -10):
+    print ("Counting up", i)
+for i in range (10, 0,-2):
+    print ("Counting down", i)
 # Task 3: Using for loops with user input
 # -------------------------------------------
 print("-------------------------------------------\n"
@@ -71,7 +86,9 @@ print("-------------------------------------------\n"
 #     print("This is loop", i + 1)
 #
 # Write your code below:
-
+number = int(input("What is the number"))
+for i in range (number):
+    print("I am good", i + 5)
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
@@ -107,7 +124,9 @@ print("-------------------------------------------\n"
 # Hint: You can loop directly over a string like this:
 # for letter in word:
 #     print(letter)
-
+name = input("Enter the name:") 
+for letter in name:
+    print (letter)  
 # Write your code below:
 
 
